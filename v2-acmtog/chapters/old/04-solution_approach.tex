@@ -1,0 +1,57 @@
+\section{Solution approach} 
+\textbf{The theory, design and test setup (incl. test data) are presented - max. 1 page (Dirk)}
+
+For the evaluation four different images were used. The first image displays eight euro coins and for each coin 
+the face value was embedded onto the area of the coin. The watermarks in this image are not overlapping. 
+
+\begin{figure*}[t]
+\centerline{\includegraphics[width=\textwidth]{}
+\label{stuff}
+\end{figure*}
+Another image displays a board,
+
+\begin{itemize}
+    \item 4 original images, that will have some watermarks embedded
+    \item various attacks will be performed on these images:
+    \begin{description}
+	    \item[cropping] different areas will be cropped out and expected/actual results will be compared
+        \item[noise] different layers of noise will be added to the image, results of the retrieving process will be compared with the unaltered image
+        \item[scaling/resizing] minimal resizing/scaling will be done, retrieved messages will be compared to the unaltered image
+	    \item[filter (grayscale, vintage)] a filter will be applied to the image in order so see which effect it has on the retrieved messages
+        \item[filetype conversion] the unaltered file will be converted into different filetypes in order so see how the retrieving process is affected
+    \end{description}
+    \item each attack result is saved as a separate image
+    \item on the attacked images the retrieval process will be run
+    \item after the retrieval, an area mismatch is expected. The original area will be compared with the retrieved area in an attacked image to show how severely the attack altered the embedded area.
+    \item for some attacks a message loss is expected to occur. It will be documented how exactly the message loss takes effect. 
+    \item The message is completely lost, which means the tool was not able to retrieve any part of the embedded area. 
+    \item how many messages are lost?
+    \item TODO: hierarchy errors
+    \item parameter evaluation: 
+    \item embedding strength - different embedding strengths and the influence on the created image
+    \item block size - different sizes and influence on the embedding/retrieving process
+    \item key size - no influence on embedding process, so has no value for the evaluation, will just be documented
+\end{itemize}
+
+
+
+\subsection{Data set/acquisition} 
+wieviele
+größe
+format
+motiv
+mehrere datensets?
+
+MAIK
+
+\subsection{preprocessing} 
+\begin{itemize}
+    \item embedding
+    \item cropping
+    \item noise
+    \item scaling/resizing
+    \item filter (grayscale, vintage)
+    \item filetype conversion
+\end{itemize}
+
+MAIK
