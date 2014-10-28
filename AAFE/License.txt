@@ -1,0 +1,12 @@
+License
+==================
+
+Except where otherwise noted, all of the documentation and software included in this package is copyrighted by the Advanced Multimedia and Security Lab (AMSL) of the Department of Computer Science at the Otto-von-Guericke-University Magdeburg, Germany. 
+
+This software is provided "as-is," without any express or implied warranty. No guarantee is given that it is fit for any purpose. In no event shall the author be held liable for any damages arising from the download, installation or use of this software.
+While every attempt has been made to ensure software provided in this course is virus free, it is strongly recommended that the recipient uses its own anti-virus software to check it.
+
+Important notice: The usage right for this software is restricted by AMSL to the specific course at the Otto-von-Guericke-University Magdeburg for which this software was originally provided. It may not be used in any other context. A transfer of the software to third parties is not allowed.
+
+
+
