@@ -1,0 +1,32 @@
+datenbasis:		.wav
+trainingset: 	4 samples
+testset: 		1 .samples
+
+
+local feature extraction: .arff
+local_feature_male_train
+local_feature_male_test
+local_feature_female_train
+local_feature_female_test
+local_feature_gender_train
+local_feature_gender_test
+
+
+Daten preprocessing:
+
+gleiche attribute raus
+	-lsb_flipping_rate raus
+	-lsb_flipping_ratio raus
+	
+stille filtern
+	-rms amplitude <10 raus
+	
+Ergebnis: .arff
+local_feature_male_train_filtered
+local_feature_male_test_filtered
+local_feature_female_train_filtered
+local_feature_female_test_filtered
+local_feature_gender_train_filtered
+local_feature_gender_test_filtered
+	
+	

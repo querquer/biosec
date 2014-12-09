@@ -1,0 +1,37 @@
+
+Was ist speaker recognition?
+	- kurz
+	
+Was war unsere Aufgabe?	
+	- klassifikation
+	- einteilung in Zoo
+	
+Womit haben wir gearbeitet?
+	- AAEF
+	- WEKA
+	
+Woraus besteht unsere Database?
+	- HYKE
+	- male and female
+	- ..
+	
+Wir war unsere Prozesskette aufgebaut?
+	- Bild aus Vorlesung
+	
+Was sind unsere Ergebnisse?
+	- 
+	
+	
+	
+gender:	
+training set local feature .arff (4 sample each user)
+test set local feature .arff (1 sample each user)
+	
+male:
+training set local feature .arff (4 sample each user)
+test set local feature .arff (1 sample each user)
+
+female:
+training set local feature .arff (4 sample each user)
+test set local feature .arff (1 sample each user)
+	
