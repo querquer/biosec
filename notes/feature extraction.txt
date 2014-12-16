@@ -1,0 +1,4 @@
+AAFE jSteganalyzer
+
+using hamming window
+1024 sample size

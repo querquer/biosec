@@ -1,0 +1,23 @@
+official:
+82 user
+44 male
+38 female
+5 recordings each
+35sec. ;20sec. ;15sec. ;10sec. ; 5sec.
+
+real:
+x user
+48 male
+z female
+mostly 5 recordings each
+35-5sec
+
+
+divided in train and test set
+
+test set:
+1 recording with approx. 10sec.
+
+train set:
+~4 recordings(remainder)
+
