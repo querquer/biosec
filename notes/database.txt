@@ -8,7 +8,7 @@ official: HYKE
 real:
 x user
 48 male
-z female
+35 female
 mostly 5 recordings each
 35-5sec
 
