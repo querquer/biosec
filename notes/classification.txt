@@ -12,7 +12,44 @@ used classifier
 	-results train set
 	-results test set
 	
-...
+Train set: "local_feature_female_train_filtered.arff"
+Test mode:user supplied test set: "local_feature_female_test_filtered.arff"
+		- Total Number of Instances: 1114
+
+	weka.classifiers.trees.J48 -C 0.25 -M 2
+			-default
+			Correctly Classified Instances         421               37.7917 %
+			Incorrectly Classified Instances       693               62.2083 %
+			Kappa statistic                          0.3586
+			Mean absolute error                      0.0357
+			Root mean squared error                  0.178 
+			Relative absolute error                 64.3857 %
+			Root relative squared error            106.8985 %
+
+	weka.classifiers.lazy.IB1
+			-default
+			Correctly Classified Instances         612               54.9372 %
+			Incorrectly Classified Instances       502               45.0628 %
+			Kappa statistic                          0.5351
+			Mean absolute error                      0.0258
+			Root mean squared error                  0.1605
+			Relative absolute error                 46.4575 %
+			Root relative squared error             96.3584 %
+
+	weka.classifiers.lazy.IBk
+			-default
+			Correctly Classified Instances         612               54.9372 %
+			Incorrectly Classified Instances       502               45.0628 %
+			Kappa statistic                          0.5351
+			Mean absolute error                      0.0259
+			Root mean squared error                  0.1601
+			Relative absolute error                 46.7266 %
+			Root relative squared error             96.118  %
+
+	weka.classifiers.rules.ZeroR		bad
+	weka.classifiers.rules.OneR			bad
+
+
 
 __male
 used classifier
