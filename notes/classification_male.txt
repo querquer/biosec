@@ -1,0 +1,23 @@
+__male
+used classifier
+	-settings(default if no change)
+	-results train set
+	-results test set
+	
+weka.classifiers.rules.ZeroR		bad
+weka.classifiers.rules.OneR			bad
+	
+weka.classifiers.lazy.IB1 
+		-default
+		-96.0348 %
+		-58.502  %
+		
+weka.classifiers.lazy.IBk 		
+		-default
+		-96.0348 %
+		-obv.
+		
+weka.classifiers.trees.J48 -C 0.25 -M 2
+		-default
+		-86.0258 %		
+		-36.0324 %
