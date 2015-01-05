@@ -1,0 +1,17 @@
+Sheep
+- dominiert Population
+- wird gut erkannt
+- viele true/positive
+
+Goats (Ziegen)
+- wird schlecht erkannt
+- viele false/negativ
+
+Lambs (Lämmer)
+- easy to imitate
+- false/positive
+
+Wolves
+- können leicht als andere durchgehen
+- können gut imitieren
+- false/positive
