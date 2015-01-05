@@ -4,9 +4,23 @@ used classifier
 	-results train set
 	-results test set
 	
-weka.classifiers.rules.ZeroR		bad
-weka.classifiers.rules.OneR			bad
+_____functions		
+weka.classifiers.functions.LibLINEAR 		doesnt work
+weka.classifiers.functions.LibSVM			doesnt work
+weka.classifiers.functions.Logistic			just stopped
 	
+_____rules	
+weka.classifiers.rules.ZeroR				bad
+weka.classifiers.rules.OneR					bad
+weka.classifiers.rules.ConjunctiveRule 		bad
+weka.classifiers.rules.JRip 
+		-default
+		-76.2765 %
+		-todo
+
+_____lazy	
+weka.classifiers.lazy.KStar 				takes ages
+weka.classifiers.lazy.KStar					takes ages
 weka.classifiers.lazy.IB1 
 		-default
 		-96.0348 %
@@ -16,8 +30,64 @@ weka.classifiers.lazy.IBk
 		-default
 		-96.0348 %
 		-obv.
-		
+
+
+
+_____trees		
+weka.classifiers.trees.DecisionStump 		bad
+weka.classifiers.trees.LADTree 				bad
+weka.classifiers.trees.LMT 					takes ages
+
 weka.classifiers.trees.J48 -C 0.25 -M 2
 		-default
 		-86.0258 %		
 		-36.0324 %
+		
+weka.classifiers.trees.J48graft	
+		-default
+		-86.0258 %
+		-obv
+	
+weka.classifiers.trees.SimpleCart 
+		-default
+		-54.1008 %
+
+weka.classifiers.trees.REPTree
+		-default
+		-51.2765 %
+		
+weka.classifiers.trees.RandomTree
+		-default
+		-96.0348 %
+		-28.475  %
+		
+weka.classifiers.trees.RandomForest 
+		-default
+		-95.7863 %
+		-41.7679 %
+		
+weka.classifiers.trees.NBTree 
+		-default
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
