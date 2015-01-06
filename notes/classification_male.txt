@@ -5,9 +5,10 @@ used classifier
 	-results test set
 	
 _____functions		
-weka.classifiers.functions.LibLINEAR 		doesnt work
-weka.classifiers.functions.LibSVM			doesnt work
-weka.classifiers.functions.Logistic			just stopped
+weka.classifiers.functions.LibLINEAR 				doesnt work
+weka.classifiers.functions.LibSVM					doesnt work
+weka.classifiers.functions.Logistic					just stopped
+weka.classifiers.functions.MultilayerPerceptron 	takes ages
 	
 _____rules	
 weka.classifiers.rules.ZeroR				bad
