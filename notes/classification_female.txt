@@ -41,3 +41,23 @@ Test mode:user supplied test set: "local_feature_female_test_filtered.arff"
 
 	weka.classifiers.rules.ZeroR		bad
 	weka.classifiers.rules.OneR			bad
+	
+	weka.classifiers.trees.RandomForest -I 10 -K 0 -S 1
+			- default	
+			Correctly Classified Instances         436               39.1382 %
+			Incorrectly Classified Instances       678               60.8618 %
+			Kappa statistic                          0.3722
+			Mean absolute error                      0.0446
+			Root mean squared error                  0.1487
+			Relative absolute error                 80.4678 %
+			Root relative squared error             89.2794 %
+			
+	weka.classifiers.trees.RandomTree -K 0 -M 1.0 -S 1
+			- default
+			Correctly Classified Instances         256               22.9803 %
+			Incorrectly Classified Instances       858               77.0197 %
+			Kappa statistic                          0.2056
+			Mean absolute error                      0.044 
+			Root mean squared error                  0.2098
+			Relative absolute error                 79.4035 %
+			Root relative squared error            125.9741 %
