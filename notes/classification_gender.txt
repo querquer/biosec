@@ -3,3 +3,15 @@ used classifier
 	-settings(default if no change)
 	-results train set
 	-results test set
+	
+
+weka.classifiers.lazy.IBk 
+		-default
+		-97.7788 %
+		-53.1587 %
+		
+weka.classifiers.trees.RandomForest 
+		-default
+		-97.5003 %
+		-33.8598 %
+		
