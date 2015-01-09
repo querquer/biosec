@@ -1,0 +1,85 @@
+_____classification
+
+so we come to our classification
+where we also used weka for our task of the closed set speaker recognition
+
+weka provides us a huge amount of cpossible classifier, 
+which we all tried and compare the results to find the best classifier 
+
+as the bast classifier turned out the IBK and the RandomForest with the results shown in this table
+these results say that we could match samples from one recording to the origin speaker with a probability of 56%
+
+
+on first sight these results doesnt look particularly well
+but in the one hand we have to consider 
+that the classifier was able to distinguish one sample from over 80 other speaker with a 56% which is quite well
+
+
+in the other hand we have to look on the main task
+the main task was not to match samples with speaker, the main task was to match recordings to speaker
+
+due to the fact
+we only used ONE recording each speaker in the test set
+and only ONE speaker is speaking in the recording
+
+we just need the majority of the sample to be classified right
+
+lets just take a look of the results
+
+_____covarianzmatrix
+
+here we see all samples 
+and where they were classified
+
+we also that the classification is result is good because the majority of the sample lie on the diagonals of the matrix
+
+
+on a closer look we see that
+some speaker were much harder to identified as other were almost all sample were right classified
+
+
+we come to our last topic
+
+_____Doddingtons Zoo
+
+this is a thesis we allready had in the lecture
+
+but as a small reminder
+they assume that every speaker can be assign to one of these animals
+every animal represent a other charateristic of speaker
+
+sheep, 	represent the most speaker
+goats, 	where not much samples are right classified, speaker who could not authenticated are goats
+lambs, 	where many wrong samples are assign to, need to look on the vertical
+wolves,	where a lot of samples are classifed to few other speaker
+
+this categorization we did with all our speaker an come to the conclusion shows in this table 
+where we can see that the most are sheeps and easly to accepted by the system
+and only 10% shown this unwanted feature
+
+
+_____Conclusion
+
+what did we learn about skeaper recognition in our project?
+even with a non optimal database
+but 
+with the right tools, feature extraction and classification
+it is possible 
+to accomplish good results
+
+
+
+__________slide
+
+with:
+non optimal database
+good feature extraction
+good classification tools
+minimal post-processing
+
+we accomplish:
+97,5% authetication rate
+
+
+
+
