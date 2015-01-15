@@ -32,24 +32,14 @@
 \ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
 \ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
 
-\bibitem[\protect\citeauthoryear{Claus Vielhauer Maik~Schott}{Claus Vielhauer
-  Maik~Schott}{2009}]%
-        {Vielhauer2009}
-{Jana~Dittmann Claus Vielhauer Maik~Schott}. Januar 18th-22nd 2009.
-\newblock \showarticletitle{Nested Object Watermarking}.
-\newblock {\em Proceedings - Annual IS\&T/SPIE Sysposium on Electronic
-  Imaging\/}  {21} (Januar 18th-22nd 2009).
-\newblock
-\showDOI{%
-\url{http://dx.doi.org/10.1117/12.805862}}
-
-
-\bibitem[\protect\citeauthoryear{Maik~Schott}{Maik~Schott}{2009}]%
-        {Schott2009}
-{Claus~Vielhauer Maik~Schott, Jana~Dittmann}. September 16th-18th 2009.
-\newblock \showarticletitle{AnnoWaNO: An Annotation watermarking framework}.
-\newblock {\em Proceedings of the 6th International Symposium Image and Signal
-  Processing and Analysis\/}  {6} (September 16th-18th 2009), 483--488.
+\bibitem[\protect\citeauthoryear{George~Doddington}{George~Doddington}{1998}]%
+        {zoo}
+{Alvin Martin Mark Przybocki Douglas~Reynolds George~Doddington,
+  Walter~Liggett}. 1998.
+\newblock \showarticletitle{SHEEP, GOATS, LAMBS and WOLVES - A Statistical
+  Analysis of Speaker Performance in the NIST 1998 Skeaper Recognition
+  Evaluation}.
+\newblock {\em National Institute of Standards and Technology\/} (1998).
 \newblock
 
 
