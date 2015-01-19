@@ -21,6 +21,9 @@ Too many commas in name 1 of "George Doddington, Walter Liggett, Alvin Martin, M
 while executing---line 3245 of file ACM-Reference-Format-Journals.bst
 Too many commas in name 1 of "George Doddington, Walter Liggett, Alvin Martin, Mark Przybocki, Douglas Reynolds" for entry zoo
 while executing---line 3245 of file ACM-Reference-Format-Journals.bst
+Warning--no number and no volume in hyke
+Warning--page numbers missing in both pages and numpages fields in hyke
+Warning--empty address in beigi
 Too many commas in name 1 of "George Doddington, Walter Liggett, Alvin Martin, Mark Przybocki, Douglas Reynolds" for entry zoo
 while executing---line 3337 of file ACM-Reference-Format-Journals.bst
 Too many commas in name 1 of "George Doddington, Walter Liggett, Alvin Martin, Mark Przybocki, Douglas Reynolds" for entry zoo

@@ -32,14 +32,41 @@
 \ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
 \ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
 
+\bibitem[\protect\citeauthoryear{Azarias~Reda}{Azarias~Reda}{2011}]%
+        {hyke}
+{Edward~Cutrell Azarias~Reda, Saurabh~Panjwani}. 2011.
+\newblock \showarticletitle{Hyke: A Low-cost Remote Attendence Tracking System
+  for Developing Regions}.
+\newblock {\em Networked System for Developing Regions\/} (2011).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Beigi}{Beigi}{2011}]%
+        {beigi}
+{Homayoon Beigi}. 2011.
+\newblock {\em Fundamentals of Speaker Recognition}.
+\newblock Springer Science+Business Media.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{George~Doddington}{George~Doddington}{1998}]%
         {zoo}
-{Alvin Martin Mark Przybocki Douglas~Reynolds George~Doddington,
+{Alvin Martin-Mark Przybocki Douglas~Reynolds George~Doddington,
   Walter~Liggett}. 1998.
 \newblock \showarticletitle{SHEEP, GOATS, LAMBS and WOLVES - A Statistical
   Analysis of Speaker Performance in the NIST 1998 Skeaper Recognition
   Evaluation}.
 \newblock {\em National Institute of Standards and Technology\/} (1998).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Prof. Dr. Jana~Dittmann}{Prof. Dr.
+  Jana~Dittmann}{2014}]%
+        {dittmann}
+{Prof. Dr.-Ing. Claus~Vielhauer Prof. Dr. Jana~Dittmann}. 2014.
+\newblock {\em Biometrics and Security - Lecture}.
+\newblock Faculty of Computer Science, Institute of Technical and Business
+  Information Systems, Advanced Multimedia and Secruity Lab (AMSL).
 \newblock
 
 

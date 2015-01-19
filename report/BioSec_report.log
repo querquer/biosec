@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  15 JAN 2015 16:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  19 JAN 2015 11:24
 entering extended mode
 **BioSec_report.tex
 (D:\repository\biosec\report\BioSec_report.tex
@@ -163,55 +163,161 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--38
 
  []
 
-(D:\repository\biosec\report\chapters/1-motivation.tex)
-(D:\repository\biosec\report\chapters/2-hyke.tex)
-(D:\repository\biosec\report\chapters/3-approach.tex)
-(D:\repository\biosec\report\chapters/4-database.tex)
-(D:\repository\biosec\report\chapters/5-pre.tex)
+(D:\repository\biosec\report\chapters/1-motivation.tex
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no œ in font ptmr7t!
+)
+(D:\repository\biosec\report\chapters/2-hyke.tex
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+)
+(D:\repository\biosec\report\chapters/3-approach.tex
+Underfull \hbox (badness 1442) in paragraph at lines 12--16
+[]\OT1/ptm/m/n/9 def. speaker recog-ni-tion [Beigi 2011] Speaker recog-ni-tion,
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+) (D:\repository\biosec\report\chapters/4-database.tex)
+(D:\repository\biosec\report\chapters/5-pre.tex
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ÿ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+Non-PDF special ignored!
+
+
+]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+)
 (D:\repository\biosec\report\chapters/6-extraction.tex)
 (D:\repository\biosec\report\chapters/7-post.tex)
 (D:\repository\biosec\report\chapters/8-classification.tex
 Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ÿ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 28.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 28.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 28.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 28.
+
+Overfull \hbox (26.72981pt too wide) in paragraph at lines 34--34
+ []\OT1/ptm/m/n/9 Table I. 
+ []
+
+
+Overfull \hbox (24.3269pt too wide) in paragraph at lines 34--34
+ \OT1/ptm/m/n/9 Ergeb- 
+ []
+
+
+Overfull \hbox (17.99965pt too wide) in paragraph at lines 34--34
+ \OT1/ptm/m/n/9 nisse 
+ []
+
+
+Overfull \hbox (11.4929pt too wide) in paragraph at lines 34--34
+ \OT1/ptm/m/n/9 der 
+ []
+
+
+Overfull \hbox (19.49368pt too wide) in paragraph at lines 34--34
+ \OT1/ptm/m/n/9 Klas- 
+ []
+
+
+Overfull \hbox (8.99977pt too wide) in paragraph at lines 34--34
+ \OT1/ptm/m/n/9 si- 
+ []
+
+
+Overfull \hbox (16.49684pt too wide) in paragraph at lines 34--34
+ \OT1/ptm/m/n/9 fika- 
+ []
+
+
+Overfull \hbox (14.00381pt too wide) in paragraph at lines 34--34
+ \OT1/ptm/m/n/9 tion 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
-)
-(D:\repository\biosec\report\chapters/9-zoo.tex)
+) (D:\repository\biosec\report\chapters/9-zoo.tex)
 (D:\repository\biosec\report\chapters/10-conclusion.tex)
 (D:\repository\biosec\report\chapters/11-future.tex)
 (D:\repository\biosec\report\chapters/sources.tex
 (D:\repository\biosec\report\BioSec_report.bbl))
-(D:\repository\biosec\report\chapters/task_describtion.tex [1{C:/ProgramData/Mi
-KTeX/2.9/pdftex/config/pdftex.map}
-Non-PDF special ignored!
+(D:\repository\biosec\report\BioSec_report.lot)
+\tf@lot=\write3
 
-
-])
+(D:\repository\biosec\report\chapters/task_describtion.tex)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 58.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 58.
+(Font)              <7> on input line 60.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 58.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 58.
- [2
-
-] (D:\repository\biosec\report\BioSec_report.aux) ) 
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 60.
+ [2]
+(D:\repository\biosec\report\BioSec_report.aux) ) 
 Here is how much of TeX's memory you used:
- 1680 strings out of 493921
- 21926 string characters out of 3148889
- 79555 words of memory out of 3000000
- 4937 multiletter control sequences out of 15000+200000
- 28715 words of font info for 68 fonts, out of 3000000 for 9000
+ 1721 strings out of 493921
+ 22398 string characters out of 3148889
+ 81730 words of memory out of 3000000
+ 4965 multiletter control sequences out of 15000+200000
+ 32599 words of font info for 82 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,6n,21p,257b,239s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Programme/MiKTeX 2.9/fon
-ts/enc/dvips/fontname/8r.enc}<D:/Programme/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb><D:/Programme/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><
-D:/Programme/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/Programme/MiKTeX 2
-.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on BioSec_report.pdf (2 pages, 49252 bytes).
+ 34i,7n,21p,387b,235s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/Programme/MiKTeX 2.9/fonts
+/enc/dvips/fontname/8r.enc}<D:/Programme/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb><D:/Programme/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><D:
+/Programme/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/Programme/MiKTeX 2.9
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on BioSec_report.pdf (2 pages, 57950 bytes).
 PDF statistics:
  26 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -1,4 +1,42 @@
-\section{Classification}
+\section{Klassifikation}
+
+in diesem kapitel geht es darum klassifikatoren zu finden die 
+
+bei der Klassifizierung geht es im allg um
+
+
+Unsere daten sind dabei in die 6 sets undterteilen und beinhalten die feature der recordings.
+
+
+
+Zur bestimmung der bessten klassifizieren haben wir die methode des try and eeror verwendet. Das heißt wir haben alle möglichen klassifikatoren in den default setting auf unsere datenbasis angewandt und danach die ergebisse verglichen.
+
+ein gutes ergebnis bestand darin dass möglichst viele samples eines sprechers auch dem richtigen sprecher zugeordnet wurden.
+
+
+
+Klassifizieren mit Settings:
+\begin{itemize}
+	\item weka.classifiers.lazy.IBk -K 1 -W 0 -A 
+	\item weka.classifiers.trees.RandomForest -I 10 -K 0 -S 1
+\end{itemize}
+
+dabei hat sich eine klassifikator als besonders gut erwiesen, der ibk. Als verglich haben wir das ergebnis mit dem ergebnis des klassifikatoers danebengestellt mit den zweit bessten ergebniisen, der randomforest, zu sehen in Tabelle:\ref{tab:resultsClassifiers}
+
+\begin{table}[h]
+	\centering
+    \begin{tabular}{ | l | l |}
+    \hline
+    Klassifikator & Treffergenauigkeit  \\ \hline 
+    IBK & 54.94\% \\ \hline
+    RandomForest & 39.14\% \\ \hline
+    \end{tabular}
+    \caption{Ergebnisse der Klassifikation}
+   \label{tab:resultsClassifiers}
+\end{table}
+
+Diese ergebnisse...
+
 
 \begin{itemize}
 	\item Ansatz?
@@ -10,4 +48,11 @@
     \item results auth
     \item vergleich mit hyke
 \end{itemize}
+
+
+
+\subsection{Authentifikation}
+
+
+verwenung der ergebnisse
 
