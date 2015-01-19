@@ -1,3 +1,4 @@
+
 %% acmtog.cls - version 1.2
 %% Aptara Inc./Gerry Murray, dated 07 March 2012
 %% (c) 2011 Association for Computing Machinery (ACM)
@@ -1076,4 +1077,3 @@ to\hsize{\if@nfeven\else\hfil\fi\box\@tempboxa\if@nfeven\hfil\fi}
 \endinput
 
 % end of acmtog.cls  Version 1.2 - March 2012
-
