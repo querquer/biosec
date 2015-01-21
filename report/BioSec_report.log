@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  19 JAN 2015 17:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  19 JAN 2015 17:52
 entering extended mode
 **BioSec_report.tex
 (D:\repository\biosec\report\BioSec_report.tex
@@ -191,7 +191,22 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
-) (D:\repository\biosec\report\chapters/4-database.tex)
+) (D:\repository\biosec\report\chapters/4-database.tex
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+)
 (D:\repository\biosec\report\chapters/5-pre.tex
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
@@ -201,15 +216,15 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no Ÿ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¶ in font ptmr7t!
  [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 Non-PDF special ignored!
 
 
 ]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ÿ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -296,9 +311,6 @@ Overfull \hbox (14.00381pt too wide) in paragraph at lines 34--34
  \OT1/ptm/m/n/9 tion 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -377,7 +389,11 @@ Overfull \hbox (36.9985pt too wide) in paragraph at lines 71--71
  \OT1/ptm/m/n/9 tifizierung 
  []
 
-) (D:\repository\biosec\report\chapters/9-zoo.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 77.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 77.
+[2]) (D:\repository\biosec\report\chapters/9-zoo.tex
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 
@@ -386,19 +402,22 @@ Underfull \hbox (badness 3919) in paragraph at lines 4--7
  []
 
 
+Underfull \hbox (badness 1490) in paragraph at lines 4--7
+\OT1/ptm/m/n/9 in vier kat-e-gori-ern un-ter-schei-den die jew-eils von einem t
+ier
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 4--7
 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 7.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 7.
-[2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no Ÿ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no Ÿ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -408,43 +427,38 @@ Missing character: There is no ¼ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no Ÿ in font ptmr7t!
 
-Overfull \hbox (32.72374pt too wide) in paragraph at lines 29--29
+Overfull \hbox (32.72374pt too wide) in paragraph at lines 40--40
  []\OT1/ptm/m/n/9 Table III. 
  []
 
 
-Overfull \hbox (24.3269pt too wide) in paragraph at lines 29--29
+Overfull \hbox (24.3269pt too wide) in paragraph at lines 40--40
  \OT1/ptm/m/n/9 Ergeb- 
  []
 
 
-Overfull \hbox (17.99965pt too wide) in paragraph at lines 29--29
+Overfull \hbox (17.99965pt too wide) in paragraph at lines 40--40
  \OT1/ptm/m/n/9 nisse 
  []
 
 
-Overfull \hbox (11.4929pt too wide) in paragraph at lines 29--29
+Overfull \hbox (11.4929pt too wide) in paragraph at lines 40--40
  \OT1/ptm/m/n/9 der 
  []
 
 
-Overfull \hbox (19.49368pt too wide) in paragraph at lines 29--29
- \OT1/ptm/m/n/9 Klas- 
+Overfull \hbox (15.99278pt too wide) in paragraph at lines 40--40
+ \OT1/ptm/m/n/9 Kat- 
  []
 
 
-Overfull \hbox (8.99977pt too wide) in paragraph at lines 29--29
- \OT1/ptm/m/n/9 si- 
+Overfull \hbox (6.9929pt too wide) in paragraph at lines 40--40
+ \OT1/ptm/m/n/9 e- 
  []
 
 
-Overfull \hbox (16.49684pt too wide) in paragraph at lines 29--29
- \OT1/ptm/m/n/9 fika- 
- []
-
-
-Overfull \hbox (14.00381pt too wide) in paragraph at lines 29--29
- \OT1/ptm/m/n/9 tion 
+Overfull \hbox (40.99458pt too wide) in paragraph at lines 40--40
+ \OT1/ptm/m/n/9 gorisierung 
  []
 
 ) (D:\repository\biosec\report\chapters/10-conclusion.tex)
@@ -463,14 +477,14 @@ Here is how much of TeX's memory you used:
  4970 multiletter control sequences out of 15000+200000
  35909 words of font info for 86 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,7n,21p,387b,238s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,7n,21p,700b,232s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Programme/MiKTeX 2.9/fonts
 /enc/dvips/fontname/8r.enc}<D:/Programme/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb><D:/Programme/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><D:
 /Programme/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><D:/Programme/MiKTeX 2.9
 /fonts/type1/urw/times/utmr8a.pfb><D:/Programme/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on BioSec_report.pdf (3 pages, 71556 bytes).
+Output written on BioSec_report.pdf (3 pages, 72399 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
