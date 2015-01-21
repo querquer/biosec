@@ -1,9 +1,4 @@
 \section{Post-Processing}
-Die Features wurden mit Hilfe von Weka aufbereitet. Dadurch sollten bessere Ergebnisse bei der Klassifikation erzeugt werden. Dazu wurde die Features "lbs_flipping_ratio" (in allen Instanzen 922337203685477.6000) und "lbs_flipping_rate" (in allen Instanzen 0) entfernt. Weil sie in allen Fällen gleich sind lassen sich an ihnen keine Unterschiede in den Aufnahmen feststellen.
+Die extrahierten Daten wurden mit Hilfe von Weka aufbereitet. Dadurch sollten bessere Ergebnisse bei der Klassifikation erzeugt werden. Dazu wurde die Features "lbs_flipping_ratio" (in allen Instanzen 922337203685477.6000) und "lbs_flipping_rate" (in allen Instanzen 0) entfernt. Weil sie in allen Fällen gleich sind lassen sich an ihnen keine Unterschiede in den Aufnahmen feststellen.
 
-In den Aufnahmen gibt es Bereiche die keine Stimme enthalten. Diese konzentrieren sich auf Anfang und Ende der Datei. Es gibt auch Pausen zwischen den gesprochenen Ziffern. Die "stillen" Bereiche enthalten keine Information über die Stimme und somit den Sprecher. Dadurch wird die spätere Klassifikation erschwert. Um die "Stille" herauszufiltern wurden alle Samples mit einer geringen Amplitude gelöscht. Dazu wurde das Feature "rms_amplitude" genutzt und alle Samples mit einem Wert unter 10 gefiltert. Es wurde der "RemoveWithValues" Filter von Weka mit den Parametern -S 10.0 -C 5 -L first-last verwendet.
-
-\begin{itemize}
-    \item mit welchem ergebnis?
-\end{itemize}
-
+In den Aufnahmen gibt es Bereiche die keine Stimme enthalten. Diese konzentrieren sich auf Anfang und Ende der Datei. Es gibt auch Pausen zwischen den gesprochenen Ziffern. Die "stillen" Bereiche enthalten keine Information über die Stimme und somit den Sprecher. Dadurch wird die spätere Klassifikation erschwert. Um die "Stille" herauszufiltern wurden alle Samples mit einer geringen Amplitude gelöscht. Dazu wurde das Feature "rms_amplitude" genutzt und alle Samples mit einem Wert unter 10 gefiltert. Es wurde der "RemoveWithValues" Filter von Weka mit den Parametern -S 10.0 -C 5 -L first-last verwendet. Dadurch wurden von 50424 Samples 32026 entfernt. Das heißt es wurden rund 64 Prozent der Datenbasis entfernt.
