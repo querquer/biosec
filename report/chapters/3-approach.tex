@@ -1,31 +1,51 @@
-\section{Our Approach}
+\section{Unser Ansatz}
 \label{approach}
 
+es geht um speaker recognition, wobei
 
-aufgabenstellung \ref{task}
+
+\textit{Speaker recognition, sometimes referred to as speaker biometrics, includes identification, verification (authentication), classification, and by extension, segmentation,
+tracking and detection of speakers. It is a generic term used for any procedure which
+involves knowledge of the identity of a person based on his/her voice.}
+\cite{beigi} \\
+
+
+In diesem rahmen sollten die folgenden aufgabenstellungen erfolgreich abgschlossen werden:
 \begin{itemize}
 	\item[\textbullet] Closed set speaker authentication on the Hyke speech database
-	\item[\textbullet]  Compare the results achieved (in terms of authentication performance) to th results persented in \cite{hyke}
+	\item[\textbullet] Compare the results achieved (in terms of authentication performance) to th results persented in \cite{hyke}
 	\item[\textbullet]  A projection of the samples in your data set to the characters of 'Doddingtons Zoo' 
 \end{itemize}
+ 
 
-def. speaker recognition \cite{beigi}
-Speaker recognition, sometimes referred to as speaker biometrics, includes identification, verification (authentication), classification, and by extension, segmentation,
-tracking and detection of speakers. It is a generic term used for any procedure which
-involves knowledge of the identity of a person based on his/her voice.
+Bei den Arbeitsschritte in unserem Projekt haben wir uns an das allgemeine Model für das Authentifizieren von Benutzern anhand von Biometrischen Daten orientiert, welches in \cite{vioelhauer} vorgestellt wird. Dieses Model haben wir an unser Thema, der \textit{Speaker Recognition}, und der Aufgabenstellung angepasst.
+
+\begin{itemize}
+	\item[\textbullet] Data Acquisition: Hyke Database \ref{database}
+	\item[\textbullet] Pre-processing: kein klassisches pre-pro..., einteilung in Sets \ref{pre}
+	\item[\textbullet] Feature Extraction: Merkmalsentnahme der Audioaufnahmen mittels AAFE. \ref{aafe}
+	\item[\textbullet] Post-processing: eingefügt \ref{post}
+	\item[\textbullet] Comparsion and Classification: \ref{classification}
+\end{itemize}
+
+
+die vorgestellten Ablauf eines Authentifizieungsprozesses 
 
 Bei unseren arbeitsschritten haben wir uns dabei an
 an der von ... vorgestellen pro chain gehalten
-\begin{itemize}
-	\item kommt woher? \cite{dittmann}
-	\item genaue erklärung in den einzelnen kapiteln
-\end{itemize}
+
+General model for biometric user authentication
+\cite{vielhauer}
+
+
+dieser prozesskette haben wir noch den schritt des post-processing hinzugefügt, 
+weil das entfernen von noise aus feature mit weka angeboten hat.
 
 
 für diese aufgabe wurden uns die folgenden Programme bereitgestellt:
 
 \begin{itemize}
-	\item[\textbullet]  AAFE, "u ist ein ... und wurde für die Feature Extraction verwendet\ref{aafe}
-	\item[\textbullet]  WEKA, ist ein ... und wurde für die ref{post} und ref{classifikation} verwendet
+	\item[\textbullet] \textbf{AAFE} (AMSL Audio Feature Extractor), ist ein Tool f"ur die Extraktion von Merkmalen in Audio-Dateien und entstammt dem AMSL Audio Steganalysis Toolset (AAST).\cite{kraetzer} Anwendung fand das AAFE-Tool in dem Kapitel:\ref{aafe}.
+	\item[\textbullet] \textbf{WEKA}, ist eine Sammlung von Algorithmen des Maschinellen Lernens f"ur Aufgaben im Bereich des Data-Mining.\cite{weka} Anwendung fand dieses Tool in den Kapieln:\ref{post} und \ref{classification}.
 \end{itemize}
 

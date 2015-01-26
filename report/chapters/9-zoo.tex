@@ -2,8 +2,8 @@
 
 
 Doddingtons Zoo
-geht es darum dass sprecher ein unterschiedliches verhalten bezüglich den erfolg ihrer authentifikation aufzeigen. \cite{zoo}
-dabei lassen sich sprecher in vier kategoriern unterscheiden die jeweils von einem tier representiert werden. \\
+geht es darum dass Sprecher ein unterschiedliches Verhalten bezüglich den Erfolg ihrer Authentifizierung aufzeigen. \cite{zoo}
+Dadurch lassen sich Sprecher in vier Kategorien unterscheiden die jeweils von einem Tier repr"asentiert werden. \\
 
 Beschreibung dieser Kategorieren:
 \begin{itemize}
@@ -12,10 +12,9 @@ Beschreibung dieser Kategorieren:
 	\item[\textbullet]  \textbf{Lambs:} außerordentlich \textit{verwundbar} gegenüber Nachahmung
 	\item[\textbullet]  \textbf{Wolves:} außerordentlich \textit{erfolgreich} bei der Nachahmung anderen Sprecher
 \end{itemize}
-\cite{dittmann}
+\cite{dittmann}\\
 
-
-nun war es die aufgabe war nun eine projektion dieser kategorien auf unsere klassifizierungs ergebnisse. als entscheidungsgrundlage waren nun nicht nur  die erfolgreich klassifizierten samples intressant sondern auch die verteilung der samples die nicht dem richigen sprecher zugeordnet wurden. Um die projektion umzusetzen haben wir folgendes schema erstellt und angewandt auf unsere Datenbasis.\\
+Nun sollte eine Projektion dieser Kategorien auf die Ergebnisse unserer Klassifizierung vollzogen werden. Als Entscheidungsgrundlage dienten nun nicht nur die erfolgreich klassifizierten Samples sondern auch die Verteilung der falsch klassifizierten Samples. Um die Projektion umzusetzen haben wir folgendes Schema erarbeitet und auf unsere Datenbasis angewandt.\\
 
 verwendetes Schema zur Kategorisierung der Sprecher:
 \begin{itemize}
@@ -25,25 +24,24 @@ verwendetes Schema zur Kategorisierung der Sprecher:
 	\item[\textbullet]  \textbf{Wolves:} viele Samples bei wenigen anderen Sprechern zugeordnet
 \end{itemize}
 
-Dieses schema wurde auf das ergebnis der klassifikation mit dem ibk auf das \textit{mixed test set} angewandt. das ergebnis dieser projektion ist zu sehen in Tabelle:\ref{table:resultsZoo}
+Dieser Ansatz wurde auf das Ergebnis der Klassifikation mit dem Klassifikator IBK auf das \textit{mixed test set} angewandt. Das Ergebnis dieser Projektion ist zu sehen in Tabelle:\ref{table:resultsZoo}.
 
 
 \begin{table}[h]
-	\centering
-    \begin{tabular}{ | l | l | l | l | l |}
+\tbl{Ergebnisse der Kategorisierung nach Doddingtons Zoo}{%
+\begin{tabular}{ | l | l | l | l | l |}
     \hline
     Animal & female & male & mixed & Anteil \\ \hline 
-    Sheep 	& 32 	& 43	&	75	&	90.36\%	\\ \hline
-    Goat	& 2		& 2		& 4 	&	4.82\% \\ \hline
-    Lamb	& 1  	& 1		& 1		&	2.41\% \\ \hline
+    Sheep 	& 32 	& 43	&	75	&	90.36\%	\\ 
+    Goat	& 2		& 2		& 4 	&	4.82\% \\ 
+    Lamb	& 1  	& 1		& 1		&	2.41\% \\ 
     Wolf	& 0  	& 2 	& 2		&	2.41\% \\ \hline
-    \end{tabular}
-    \caption{Ergebnisse der Kategorisierung}
-   \label{table:resultsZoo}
+\end{tabular}}
+\label{table:resultsZoo}
 \end{table}
 
 
-Das Ergebnis der kategorisierung zeigt dass der großteil unsere Sprecher \textbf{Sheep}'s sind.
+Das Ergebnis der kategorisierung zeigt dass der großteil unsere Sprecher \textbf{Sheeps} sind.
 Wie zu erwarten wurden unsere falsch authentifizierten Sprecher zu der Kategorie der \textbf{Goat} zugeordnet.
 
 

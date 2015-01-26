@@ -10,12 +10,12 @@ Für diese Aufgabe haben wir das tool WEKA verwendet, welches in Kapitel:\ref{ap
 
 Usnere ausgangsdaten für die klassifikatoren sind die aufbearbeiteten features, welche in Kapitel:\ref{post} vorgestellt wurden, die wir in den folgenden sets unterscheiden:
 \begin{itemize}
-    \item[\textbullet] mixed train set
-    \item[\textbullet] mixed test set
-    \item[\textbullet] female train set
-    \item[\textbullet] female test set
-    \item[\textbullet] male train set
-    \item[\textbullet] male test set    
+    \item[\textbullet] mixed train set as feature matrix
+    \item[\textbullet] mixed test set as feature matrix
+    \item[\textbullet] female train set as feature matrix
+    \item[\textbullet] female test set as feature matrix
+    \item[\textbullet] male train set as feature matrix
+    \item[\textbullet] male test as feature matrix
 \end{itemize}
 
 
@@ -34,17 +34,15 @@ als vergleich haben wir den klassifikator mit dem zweit besten ergebnis mit aufg
 
 
 \begin{table}[h]
-	\centering
-    \begin{tabular}{ | l | l | l |}
-    \hline
+\tbl{Ergebnisse der Klassifikation des IBK und RandomForest}{%
+\begin{tabular}{ | l | l | l |}\hline
     Datenset 		& IBK & RandomForest  \\ \hline 
-    female test set & 54.94\%  & 39.14\% \\ \hline
-    male test set 	& 58.50\%  & 41.7679\% \\ \hline
+    female test set & 54.94\%  & 39.14\% \\ 
+    male test set 	& 58.50\%  & 41.7679\% \\ 
     mixed test set 	& 53.16\%  & 33.86\% \\ \hline
     Konfiguration	& -K 1 -W 0 -A & -I 10 -K 0 -S 1 \\ \hline
-    \end{tabular}
-    \caption{Ergebnisse der Klassifikation}
-   \label{table:resultsClassifiers}
+\end{tabular}}
+\label{table:resultsClassifiers}
 \end{table}
 
 Aus den ergebnissen ist zu entnehmen dass es keinen signifikanten unterschied zwischen der den ergebnisse der sets \textit{female teest set} und \textit{male test set} exisitert. der bestehtnde unterschied lässt sich aus der geringen größe des datensets erklären.\\
@@ -61,7 +59,7 @@ Dies ist jedoch ein zu erwartendes ergebniss da der klassifikator nun das sample
 \label{auth}
 
 in diesem kaptitel geht es nun um die Aufgabe der \textit{Closed set speaker authentication}. Wobei die akustische Aufnahme eines Sprechers mit der aller anderen möglichen Sprechern verglichen wird und die beste Übereinstimmung als Ergebnis ausgegeben wird.\cite{beigi}
-Zu Beachten ist, dass hier im Gegensatz zu der \textit{Open set speaker authentication} es in jedem Fall zu einem Ergebnis kommt.
+Zu Beachten ist, dass hier im Gegensatz zu der \textit{Open set speaker authentication} es in jedem Fall zu einem Ergebnis kommt. \\
 
 die aufgabe besteht nun darin das ergebnis der klassifikation der samples zu interpretieren. 
 dafür betrachteten für jeden sprecher die verteilung seiner samples.
@@ -73,16 +71,15 @@ dieses verfahren wurde bei allen sprechern angewandt und das entstandende ergebn
 
 
 \begin{table}[h]
-	\centering
+\tbl{Ergebnisse der Authentifizierung}{%
     \begin{tabular}{ | l | l | l | l | l |}
     \hline
     Datenset & Gesamt & Richtig & Falsch & Anteil  	\\ \hline 
-    female test set & 35  	& 33	& 2 	& 94.29\%  	\\ \hline
-    male test set 	& 48	& 46 	& 2 	& 95.83\% 	\\ \hline
+    female test set & 35  	& 33	& 2 	& 94.29\%  	\\ 
+    male test set 	& 48	& 46 	& 2 	& 95.83\% 	\\ 
 	mixed test set 	& 83  	& 79	& 4		& 95.18\% 	\\ \hline
-    \end{tabular}
-    \caption{Ergebnisse der Authentifizierung}
-   \label{table:resultsAuth}
+    \end{tabular}}
+\label{table:resultsAuth}
 \end{table}
 
 Das Ergebnis von 95.18\% richtig erkannten sprechern ist gut und entspricht damit dem \textit{state-of-the-art}.\cite{beigi}

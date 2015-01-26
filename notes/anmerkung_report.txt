@@ -1,10 +1,16 @@
 ___motivation
+was sind alternativen?
+vorteile:
+-kostengünstig
+-kein starker eingriff in die privatsphähre(hohe akzeptanz)
 
-
+Einleitung zu Hyke
+(da sich unter projekt von dem des Hyke ableiten wollen wir zuerst einmal im Folgenden das Hyke Projekt vorstellen)
 
 ___database
 tabelle?
 
+welche bandbreite wurde entnommen?
 keine stimme enthalten, und?
 background noise -> post
 
@@ -19,6 +25,8 @@ ___post
 weka welches in \ref vorgestellt wurde
 das ziel des psot-pro ist es..
 
+bild?
+
 ___classification
 def needed?
 
@@ -26,7 +34,27 @@ ___zoo
 interpretation der ergebnisse fehlt
 
 
-___all 
+___conclusion
+was haben wir erreicht und wie ist es zu bewerten?
 
+
+___future
+
+anderer ablauf:
+-keine stille entfernen und vergleichen
+-stille entfernen vor der feature extraction
+
+man könnte die robustheit testen zbs durch:(attacks)
+- schlechtere aufnahmegeräte (kleinere representation der bandbreite)
+- einfügen von rauschen()
+- einfügen von hintergrundstimmen
+
+echtzeitfähiges framework erarbeiten
+
+
+___all 
+überschriften eindeutschen !!!
+replace ä with "a
+\label{database}
 \label{post}
 \label{aafe}
