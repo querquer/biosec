@@ -1,0 +1,32 @@
+___motivation
+
+
+
+___database
+tabelle?
+
+keine stimme enthalten, und?
+background noise -> post
+
+
+___feature extraction
+aus dem amst-toolbox /source diss
+
+..sind nun ausgan
+
+
+___post
+weka welches in \ref vorgestellt wurde
+das ziel des psot-pro ist es..
+
+___classification
+def needed?
+
+___zoo
+interpretation der ergebnisse fehlt
+
+
+___all 
+
+\label{post}
+\label{aafe}

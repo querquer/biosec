@@ -1,30 +1,23 @@
 \section{Pre-Processing}
 \label{pre}
 
-in diesem kapitel geht es um die daten unserer datenbank auf die folgenden schritte vorzubereiten.
+In diesem Kapitel geht es um die Daten unserer Datenbank auf die folgenden schritte vorzubereiten.
 
-da wir in unseren ergebinssen am ende einen möglichenn utnerschied zwischen den geschlechtern beobachten zu können...
-dafür wurde das set mit beiden geschlechtern, heir mixed set, aufgeteilt in zwei sets mit ausschlieslich stimmen von weigelichen sprechern, hier female set, und mit aussschlieslich männlichen sprechern, hier male set.
+Da wir in unseren Ergebnissen am ende einen m"oglichen Unterschied zwischen den Ergebnissen der Authentifizierung beider Geschlechtern beobachten zu können, wurden die Datenbank in sechs Sets unterteilt.
+Hierf"ur wurde das Set mit Sprechern von beiden Geschlechtern, \textit{mixed set}, aufgeteilt in zwei Sets mit ausschließlich Stimmen von weiblichen Sprechern, \textit{female set}, und mit ausschließlich männlichen Sprechern, \textit{male set}. 
 
 
-außerdem benötigen die klassifikatoren zwei sets von daten.
-mit dem einen set wird das model trainiert, heir train set, und mit dem andren set evaluert, hier test set.
+Zus"atzlich ben"otigen die Klassifikatoren zwei verschiedene Sets von Daten.
+mit dem einen Set wird das Model trainiert, hier \textit{train set}, und mit dem andren Set evaluiert, hier \textit{test set}. \\
 
+
+
+Die Datenbasis aufgeteilt in folgende Sets:
 \begin{itemize}
-    \item Was haben wir gemacht?
-    \item Warum?
-    \item mit welchem ergebnis?
+    \item[\textbullet] mixed train set
+    \item[\textbullet] mixed test set
+    \item[\textbullet] female train set
+    \item[\textbullet] female test set
+    \item[\textbullet] male train set
+    \item[\textbullet] male test set
 \end{itemize}
-
-
-
-eine aufteilung wie folgt durchgenommen:
-\begin{itemize}
-    \item mixed train set, beinhaltet ...?
-    \item mixed test set
-    \item female train set
-    \item female test set
-    \item male train set
-\end{itemize}
-
-diese aufteilugn erlaubt es und zu einem die klassifikatioren mit verschiedenen sets für trainihs und evaluierung phase zu füttern und zum anderen dient uns die auftelung in mixed,femae und male später einen möglichen unterschied der ergbenisse zu beöbachten

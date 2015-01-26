@@ -1,6 +1,12 @@
 
 \documentclass{acmtog} 
 
+\usepackage{german} 
+\usepackage{multirow}
+\usepackage{listings}
+\lstset{language=bash}
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=blue, citecolor=black]{hyperref}
+
 
 \acmVolume{}
 \acmNumber{}
@@ -14,10 +20,10 @@
 \title{Biometrics and Security\\ Speaker Recognition} 
 
 \author{Jonas Marquardt {\upshape und} Maik Riestock
-\affil{Otto von Guericke University Magdeburg}}
+\affil{Otto von Guericke University Magdeburg - Advanced Multimedia and Secruity Lab (AMSL)}}
 
 
-\keywords{Speaker Recognition, Audio Feature Extraction}
+\keywords{Speaker Recognition, Audio Feature Extraction, Doddingtons Zoo}
 
 
 \maketitle
@@ -43,16 +49,18 @@ abstract\\
 \input{chapters/3-approach}			% Maik
 \input{chapters/4-database}			% Jonas
 \input{chapters/5-pre}				% Maik
-\input{chapters/6-extraction}		% not determined
-\input{chapters/7-post}				% Jonas
+%\input{chapters/6-extraction}		% not determined
+%\input{chapters/7-post}				% Jonas
 \input{chapters/8-classification}	% Maik
 \input{chapters/9-zoo}				% Maik
 \input{chapters/10-conclusion}		% Jonas
 \input{chapters/11-future}			% Jonas
 \input{chapters/sources}
 
+
 \listoftables
 
+\newpage
 \appendix
 
 \input{chapters/task_describtion}

@@ -1,17 +1,28 @@
 \section{Klassifikation}
+\label{classification}
 
-in diesem kapitel geht es darum klassifikatoren zu finden die 
+in diesem kapitel geht es um die klassifikation unserer daten.
 
-bei der Klassifizierung geht es im allg um
-
-
-Unsere daten sind dabei in die 6 sets undterteilen und beinhalten die feature der recordings.
+Klassifizierung ist def durch
 
 
+Für diese Aufgabe haben wir das tool WEKA verwendet, welches in Kapitel:\ref{approach} vorgestellt wurde.
 
-Zur bestimmung der bessten klassifizieren haben wir die methode des try and eeror verwendet. Das heißt wir haben alle möglichen klassifikatoren in den default setting auf unsere datenbasis angewandt und danach die ergebisse verglichen.
+Usnere ausgangsdaten für die klassifikatoren sind die aufbearbeiteten features, welche in Kapitel:\ref{post} vorgestellt wurden, die wir in den folgenden sets unterscheiden:
+\begin{itemize}
+    \item[\textbullet] mixed train set
+    \item[\textbullet] mixed test set
+    \item[\textbullet] female train set
+    \item[\textbullet] female test set
+    \item[\textbullet] male train set
+    \item[\textbullet] male test set    
+\end{itemize}
 
-ein gutes ergebnis bestand darin dass möglichst viele samples eines sprechers dem richtigen sprecher zugeordnet wurden. Also der kalssifikator unter verwendung des \textit{mixed test set} eine gute treffergenauigkeit aufwies.\\
+
+
+Zur bestimmung der bessten klassifizieren haben wir die methode \textit{try and error} verwendet. Das heißt wir haben alle anwendbaren klassifikatoren in der Standarteinstellung auf unsere datenbasis angewandt und danach die ergebisse verglichen.
+
+ein gutes ergebnis bestand darin dass möglichst viele samples eines sprechers dem richtigen sprecher zugeordnet wurden. Also der kalssifikator unter verwendung des \textit{female/male/mixed test set} eine gute treffergenauigkeit aufwies.\\
 
 
 
@@ -26,10 +37,11 @@ als vergleich haben wir den klassifikator mit dem zweit besten ergebnis mit aufg
 	\centering
     \begin{tabular}{ | l | l | l |}
     \hline
-    Datenset & IBK & RandomForest  \\ \hline 
+    Datenset 		& IBK & RandomForest  \\ \hline 
     female test set & 54.94\%  & 39.14\% \\ \hline
-    male test set & 58.50\%  & 41.7679\% \\ \hline
-    mixed test set & 53.16\%  & 33.86\% \\ \hline
+    male test set 	& 58.50\%  & 41.7679\% \\ \hline
+    mixed test set 	& 53.16\%  & 33.86\% \\ \hline
+    Konfiguration	& -K 1 -W 0 -A & -I 10 -K 0 -S 1 \\ \hline
     \end{tabular}
     \caption{Ergebnisse der Klassifikation}
    \label{table:resultsClassifiers}
@@ -38,7 +50,7 @@ als vergleich haben wir den klassifikator mit dem zweit besten ergebnis mit aufg
 Aus den ergebnissen ist zu entnehmen dass es keinen signifikanten unterschied zwischen der den ergebnisse der sets \textit{female teest set} und \textit{male test set} exisitert. der bestehtnde unterschied lässt sich aus der geringen größe des datensets erklären.\\
 
 
-Ausdem ist zu beobachten dass sich die ergebnisse beioder klassifikatoren verschlechter hat bei erhöhung der anzahl von sprechern.
+Außerdem ist zu beobachten dass sich die Ergebnisse beioder klassifikatoren verschlechter hat bei erhöhung der anzahl von sprechern.
 Dies ist jedoch ein zu erwartendes ergebniss da der klassifikator nun das sample eines sprechers mit 82 anderen samples statt mit 47 bzw. 34 anderen samples verglcihen muss.\\
 
 
@@ -46,6 +58,7 @@ Dies ist jedoch ein zu erwartendes ergebniss da der klassifikator nun das sample
 
 
 \subsection{Authentifizierung}
+\label{auth}
 
 in diesem kaptitel geht es nun um die Aufgabe der \textit{Closed set speaker authentication}. Wobei die akustische Aufnahme eines Sprechers mit der aller anderen möglichen Sprechern verglichen wird und die beste Übereinstimmung als Ergebnis ausgegeben wird.\cite{beigi}
 Zu Beachten ist, dass hier im Gegensatz zu der \textit{Open set speaker authentication} es in jedem Fall zu einem Ergebnis kommt.
