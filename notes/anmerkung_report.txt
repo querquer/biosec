@@ -4,9 +4,6 @@ vorteile:
 -kostengünstig
 -kein starker eingriff in die privatsphähre(hohe akzeptanz)
 
-___Hyke
-Einleitung zu Hyke
-(da sich unter projekt von dem des Hyke ableiten wollen wir zuerst einmal im Folgenden das Hyke Projekt vorstellen)
 
 ___database
 tabelle?
@@ -37,28 +34,11 @@ ___zoo
 interpretation der ergebnisse fehlt
 
 
-___conclusion
-was haben wir erreicht und wie ist es zu bewerten?
 
 
-___future
-andere datenbasis
 
-anderer ablauf:
--keine stille entfernen und vergleichen
--stille entfernen vor der feature extraction
-
-man könnte die robustheit testen zbs durch:(attacks)
-- schlechtere aufnahmegeräte (kleinere representation der bandbreite)
-- einfügen von rauschen()
-- einfügen von hintergrundstimmen
-
-echtzeitfähiges framework erarbeiten
 
 
 ___all 
-überschriften eindeutschen !!!
-replace ä with "a
-\label{database}
-\label{post}
-\label{aafe}
+"' statt \grqq
+ä,ö,ü,ß ersetzen,  \ss{}

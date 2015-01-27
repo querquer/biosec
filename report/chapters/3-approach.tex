@@ -1,49 +1,35 @@
 \section{Unser Ansatz}
 \label{approach}
 
-es geht um speaker recognition, wobei
+Das Thema unseres Projektes ist die \textbf{Speaker Recognition} , wobei wir anhand von Aufnahmen der Stimme von Personen versuchen diese zu authentifizieren. Genauer definiert ist die Speaker Recognition folgendermaßen:
 
 
-\textit{Speaker recognition, sometimes referred to as speaker biometrics, includes identification, verification (authentication), classification, and by extension, segmentation,
-tracking and detection of speakers. It is a generic term used for any procedure which
+\textit{Speaker recognition, sometimes referred to as speaker biometrics, includes identification, verification (authentication), classification, and by extension, segmentation, tracking and detection of speakers. It is a generic term used for any procedure which
 involves knowledge of the identity of a person based on his/her voice.}
 \cite{beigi} \\
 
 
-In diesem rahmen sollten die folgenden aufgabenstellungen erfolgreich abgschlossen werden:
+In dem Rahmen des Projektes sollten die folgenden Aufgabenstellungen erfolgreich bearbeitet werden:
 \begin{itemize}
 	\item[\textbullet] Closed set speaker authentication on the Hyke speech database
 	\item[\textbullet] Compare the results achieved (in terms of authentication performance) to th results persented in \cite{hyke}
-	\item[\textbullet]  A projection of the samples in your data set to the characters of 'Doddingtons Zoo' 
+	\item[\textbullet]  A projection of the samples in your data set to the characters of 'Doddingtons Zoo' \cite{zoo}
 \end{itemize}
  
 
-Bei den Arbeitsschritte in unserem Projekt haben wir uns an das allgemeine Model für das Authentifizieren von Benutzern anhand von Biometrischen Daten orientiert, welches in \cite{vioelhauer} vorgestellt wird. Dieses Model haben wir an unser Thema, der \textit{Speaker Recognition}, und der Aufgabenstellung angepasst.
+Bei den Arbeitsschritte in unserem Projekt haben wir uns an das allgemeine Model für das Authentifizieren von Benutzern anhand von Biometrischen Daten orientiert, welches in \cite{vielhauer} vorgestellt wird. Dieses Model haben wir an unser Thema, der \textit{Speaker Recognition}, und der Aufgabenstellung angepasst:
+
 
 \begin{itemize}
-	\item[\textbullet] Data Acquisition: Hyke Database \ref{database}
-	\item[\textbullet] Pre-processing: kein klassisches pre-pro..., einteilung in Sets \ref{pre}
-	\item[\textbullet] Feature Extraction: Merkmalsentnahme der Audioaufnahmen mittels AAFE. \ref{aafe}
-	\item[\textbullet] Post-processing: eingefügt \ref{post}
-	\item[\textbullet] Comparsion and Classification: \ref{classification}
+	\item[\textbullet] Data Acquisition: Verwendung der Hyke Databasis
+	\item[\textbullet] Pre-processing: Einteilung der Datenbasis in geschlechtsspezifischen Sets
+	\item[\textbullet] Feature Extraction: Merkmals-Extraktion der Audio-Daten mittels AAFE. 
+	\item[\textbullet] Post-processing: Aufarbeitung der Feature-Matrizen
+	\item[\textbullet] Comparsion and Classification: Klassifizierung der Samples und Authentifizierung der Sprecher
 \end{itemize}
 
 
-die vorgestellten Ablauf eines Authentifizieungsprozesses 
-
-Bei unseren arbeitsschritten haben wir uns dabei an
-an der von ... vorgestellen pro chain gehalten
-
-General model for biometric user authentication
-\cite{vielhauer}
-
-
-dieser prozesskette haben wir noch den schritt des post-processing hinzugefügt, 
-weil das entfernen von noise aus feature mit weka angeboten hat.
-
-
-für diese aufgabe wurden uns die folgenden Programme bereitgestellt:
-
+Zur Bearbeitung des Projektes wurden uns zwei Programme bereitgestellt:
 \begin{itemize}
 	\item[\textbullet] \textbf{AAFE} (AMSL Audio Feature Extractor), ist ein Tool f"ur die Extraktion von Merkmalen in Audio-Dateien und entstammt dem AMSL Audio Steganalysis Toolset (AAST).\cite{kraetzer} Anwendung fand das AAFE-Tool in dem Kapitel:\ref{aafe}.
 	\item[\textbullet] \textbf{WEKA}, ist eine Sammlung von Algorithmen des Maschinellen Lernens f"ur Aufgaben im Bereich des Data-Mining.\cite{weka} Anwendung fand dieses Tool in den Kapieln:\ref{post} und \ref{classification}.

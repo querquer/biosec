@@ -1,6 +1,21 @@
 \section{Future Work}
 
+In diesem Kapitel wollen wir mögliche weiterführende Arbeiten an unserem Projekt  Ans"atze aufzeigen. Da es mehrere interessante Aspekte gibt die wir aus Zeitmangel leider nicht realisieren konnten. 
+Dabei sollte als erstes ein Wechsel der Datenbasis in Betracht gezogen werden, um zu untersuchen ob die erreichten Ergebnisse sich bestätigen lassen.\\
 
+
+Ein Ansatzpunkt w"are ein Vergleich der Ergebnisse ohne eine Entfernung der "'Stille"' in den Aufnahmen, um herauszufinden ob und wenn ja wie signifikant das Ergebnis ver"andert wurde.
+Zus"atzlich dazu w"are auch interessant welche Auswirkung die Reihenfolge der Filterung der "'Stille"'. Ob das Ergebnis beeinflusst wird, wenn die Filterung nach oder vor der Feature Extraktion vorgenommen wird, da man von der Feature Extraktion noch die Audio-Daten und keine Feature-Matrizen zur Verfügung stehen.\\
+
+
+Erweitern k"onnte man das gesamte Projekt dahingehend, dass man die erarbeitete \textit{Processing-Pipeline} in ein echtzeitf"ahiges Framework einbettet. Damit w"are eine unmittelbare \textit{user authentification} durch Spracherkennung m"oglich. Hierfür müsste vorher ein \textit{Reference Storage} erstellt werden mit denen die aktuell eingehenden Authentifizierungs-Daten verglichen werden k"onnen.\\
+
+Ein anderer Aspekt ist die Evaluation der Robustheit unserer Verarbeitungskette. 
+Dies k"onnte man erreichen indem negativen Einfluss auf die Datenbasis genommen wird. 
+folgende Attacken sind in Betracht zu ziehen:
 \begin{itemize}
-	\item future stuff
+	\item[\textbullet] schlechtere Aufnahmeger"ate (kleinere Bandbreite als die bisherige: 300Hz bis 3400Hz) 
+	\item[\textbullet] Einfügen von Rauschen in die Aufnahmen
+	\item[\textbullet] Einfügen von Hintergrundstimmen in die Aufnahmen
+	\item[\textbullet] Cropping, um kurzzeitige Verbindungsabbrüche bei der Aufnahme zu simulieren
 \end{itemize}

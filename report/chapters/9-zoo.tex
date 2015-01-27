@@ -1,22 +1,19 @@
 \section{Doddingtons Zoo}
 
 
-Doddingtons Zoo
-geht es darum dass Sprecher ein unterschiedliches Verhalten bezüglich den Erfolg ihrer Authentifizierung aufzeigen. \cite{zoo}
+Bei 'Doddingtons' Zoo geht es um die Beobachtung, dass Sprecher ein unterschiedliches Verhalten bezüglich den Erfolg ihrer Authentifizierung aufzeigen. \cite{zoo}
 Dadurch lassen sich Sprecher in vier Kategorien unterscheiden die jeweils von einem Tier repr"asentiert werden. \\
 
-Beschreibung dieser Kategorieren:
+Beschreibung dieser Kategorieren: \cite{dittmann}
 \begin{itemize}
 	\item[\textbullet]  \textbf{Sheeps:} außerordentlich \textit{leicht} von dem System erkannt, die Mehrheit der Sprecher gehört dieser Kategorie an
 	\item[\textbullet]  \textbf{Goats:} außerordentlich \textit{schwer} von dem System erkannt
 	\item[\textbullet]  \textbf{Lambs:} außerordentlich \textit{verwundbar} gegenüber Nachahmung
 	\item[\textbullet]  \textbf{Wolves:} außerordentlich \textit{erfolgreich} bei der Nachahmung anderen Sprecher
 \end{itemize}
-\cite{dittmann}\\
 
-Nun sollte eine Projektion dieser Kategorien auf die Ergebnisse unserer Klassifizierung vollzogen werden. Als Entscheidungsgrundlage dienten nun nicht nur die erfolgreich klassifizierten Samples sondern auch die Verteilung der falsch klassifizierten Samples. Um die Projektion umzusetzen haben wir folgendes Schema erarbeitet und auf unsere Datenbasis angewandt.\\
+Nun sollte eine Projektion dieser Kategorien auf die Ergebnisse unserer Klassifizierung vollzogen werden. Als Entscheidungsgrundlage dienten nun nicht nur die erfolgreich klassifizierten Samples sondern auch die Verteilung der falsch klassifizierten Samples. Um die Projektion umzusetzen haben wir folgendes Schema erarbeitet und auf unsere Datenbasis angewandt:
 
-verwendetes Schema zur Kategorisierung der Sprecher:
 \begin{itemize}
 	\item[\textbullet]  \textbf{Sheeps:} viele richtig klassifizierte Samples
 	\item[\textbullet]  \textbf{Goats:} wenig richtig klassifizierte Samples
@@ -24,7 +21,7 @@ verwendetes Schema zur Kategorisierung der Sprecher:
 	\item[\textbullet]  \textbf{Wolves:} viele Samples bei wenigen anderen Sprechern zugeordnet
 \end{itemize}
 
-Dieser Ansatz wurde auf das Ergebnis der Klassifikation mit dem Klassifikator IBK auf das \textit{mixed test set} angewandt. Das Ergebnis dieser Projektion ist zu sehen in Tabelle:\ref{table:resultsZoo}.
+Dieser Ansatz wurde auf das Ergebnis der Klassifikation mit dem Klassifikator IBK auf das \textit{mixed test set} angewandt. Das Ergebnis dieser Projektion ist zu sehen in Tabelle:\ref{table:resultsZoo}.\\
 
 
 \begin{table}[h]
@@ -32,7 +29,7 @@ Dieser Ansatz wurde auf das Ergebnis der Klassifikation mit dem Klassifikator IB
 \begin{tabular}{ | l | l | l | l | l |}
     \hline
     Animal & female & male & mixed & Anteil \\ \hline 
-    Sheep 	& 32 	& 43	&	75	&	90.36\%	\\ 
+    Sheep 	& 32 	& 43	& 75	&	90.36\%	\\ 
     Goat	& 2		& 2		& 4 	&	4.82\% \\ 
     Lamb	& 1  	& 1		& 1		&	2.41\% \\ 
     Wolf	& 0  	& 2 	& 2		&	2.41\% \\ \hline
@@ -41,8 +38,9 @@ Dieser Ansatz wurde auf das Ergebnis der Klassifikation mit dem Klassifikator IB
 \end{table}
 
 
-Das Ergebnis der kategorisierung zeigt dass der großteil unsere Sprecher \textbf{Sheeps} sind.
-Wie zu erwarten wurden unsere falsch authentifizierten Sprecher zu der Kategorie der \textbf{Goat} zugeordnet.
+Das Ergebnis der Kategorisierung zeigt, dass der Großteil unsere Sprecher \textbf{Sheeps} sind. Dies entspricht den Erwartungen, da es sich dabei um den Standarttypen hält. Wohingegen die anderen Kategorien eine Minderheit darstellen. Außerdem ist zu beobachten, dass unsere falsch authentifizierten Sprecher zu der Kategorie der \textbf{Goat} zugeordnet worden. Dies entspricht ganz ihrer Beschreibung als Kategorie der schwer zu authentifizierenden.
+
+
 
 
 

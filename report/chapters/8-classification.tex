@@ -1,14 +1,9 @@
 \section{Klassifikation}
 \label{classification}
 
-in diesem kapitel geht es um die klassifikation unserer daten.
+Diesem Kapitel beschäftigt sich mit der Klassifikation unserer Daten, also die richtige Zuordnung der Samples zu den Sprechern. Für diese Aufgabe haben wir das Tool WEKA verwendet.
 
-Klassifizierung ist def durch
-
-
-Für diese Aufgabe haben wir das tool WEKA verwendet, welches in Kapitel:\ref{approach} vorgestellt wurde.
-
-Usnere ausgangsdaten für die klassifikatoren sind die aufbearbeiteten features, welche in Kapitel:\ref{post} vorgestellt wurden, die wir in den folgenden sets unterscheiden:
+Dabei sind unsere Ausgangsdaten für die Klassifikatoren die aufgearbeiteten Features Matrizen, welche in Kapitel:\ref{post} vorgestellt wurden und die wir in den folgenden Sets unterscheiden:
 \begin{itemize}
     \item[\textbullet] mixed train set as feature matrix
     \item[\textbullet] mixed test set as feature matrix
@@ -18,19 +13,13 @@ Usnere ausgangsdaten für die klassifikatoren sind die aufbearbeiteten features,
     \item[\textbullet] male test as feature matrix
 \end{itemize}
 
+Zur Bestimmung des besten Klassifikators haben wir die Methode \textit{try and error} verwendet. Das heißt wir haben alle anwendbaren Klassifikatoren in der Standarteinstellung auf unsere Datenbasis angewandt und danach die Ergebnisse verglichen.
+
+Ein gutes Ergebnis bestand darin, dass möglichst viele Samples eines Sprechers dem richtigen sprecher zugeordnet wurden. Also der Klassifikator unter Verwendung des \textit{female/male/mixed test set} eine gute Vorhersagegenauigkeit aufwies.\\
 
 
-Zur bestimmung der bessten klassifizieren haben wir die methode \textit{try and error} verwendet. Das heißt wir haben alle anwendbaren klassifikatoren in der Standarteinstellung auf unsere datenbasis angewandt und danach die ergebisse verglichen.
-
-ein gutes ergebnis bestand darin dass möglichst viele samples eines sprechers dem richtigen sprecher zugeordnet wurden. Also der kalssifikator unter verwendung des \textit{female/male/mixed test set} eine gute treffergenauigkeit aufwies.\\
-
-
-
-
-
-dabei hat sich ein klassifikator als besonders gut erwiesen, der ibk. dieser klassifikator erzielte ein ergebnis von 54.94 \% Treffergenauigkeit bei dem 
-\textit{mixed test set}.
-als vergleich haben wir den klassifikator mit dem zweit besten ergebnis mit aufgeführt, der RandomForest. Die Tabelle:\ref{table:resultsClassifiers} zeigt das Ergebnis beider klassifikatioren mit den dazugehörigen konfiguration des klassifikators. \\
+Dabei hat sich ein Klassifikator als besonders gut erwiesen, der IBK. Dieser Klassifikator erzielte ein Ergebnis von 54.94 \% Vorhersagegenauigkeit bei dem 
+\textit{mixed test set}. Als Vergleich haben wir den Klassifikator mit dem zweit besten ergebnis mit aufgeführt, der RandomForest. Die Tabelle:\ref{table:resultsClassifiers} zeigt das Ergebnis beider Klassifikationen mit den dazugehörigen Konfiguration des Klassifikators. Die vollständigen Ergebnisse sind im Anhang zu finden.\\
 
 
 \begin{table}[h]
@@ -45,30 +34,25 @@ als vergleich haben wir den klassifikator mit dem zweit besten ergebnis mit aufg
 \label{table:resultsClassifiers}
 \end{table}
 
-Aus den ergebnissen ist zu entnehmen dass es keinen signifikanten unterschied zwischen der den ergebnisse der sets \textit{female teest set} und \textit{male test set} exisitert. der bestehtnde unterschied lässt sich aus der geringen größe des datensets erklären.\\
+Aus den Ergebnissen ist zu entnehmen, dass es keinen signifikanten Unterschied zwischen der den Ergebnisse der geschlechtsspezifischen Sets \textit{female teest set} und \textit{male test set} existiert. Der bestehende Unterschied lässt sich aus der geringen Größe des Datenbasis erklären.\\
 
 
-Außerdem ist zu beobachten dass sich die Ergebnisse beioder klassifikatoren verschlechter hat bei erhöhung der anzahl von sprechern.
-Dies ist jedoch ein zu erwartendes ergebniss da der klassifikator nun das sample eines sprechers mit 82 anderen samples statt mit 47 bzw. 34 anderen samples verglcihen muss.\\
+Außerdem ist zu beobachten, dass sich die Ergebnisse beider Klassifikatoren verschlechtert hat bei Erhöhung der Anzahl von Sprechern.
+Dies ist jedoch ein zu erwartendes ergebnis- da der Klassifikator nun das sample eines Sprechers mit 82 anderen Samples statt mit 47 bzw. 34 anderen Samples vergleichen muss.\\
 
 
 
 
-
+%--------------------------------------------------------------------------------------
 \subsection{Authentifizierung}
 \label{auth}
 
-in diesem kaptitel geht es nun um die Aufgabe der \textit{Closed set speaker authentication}. Wobei die akustische Aufnahme eines Sprechers mit der aller anderen möglichen Sprechern verglichen wird und die beste Übereinstimmung als Ergebnis ausgegeben wird.\cite{beigi}
-Zu Beachten ist, dass hier im Gegensatz zu der \textit{Open set speaker authentication} es in jedem Fall zu einem Ergebnis kommt. \\
+In diesem Kapitel geht es nun um die Aufgabe der \textit{Closed Set Speaker Authentication}. Wobei die akustische Aufnahme eines Sprechers mit der aller anderen möglichen Sprechern verglichen wird und die beste Übereinstimmung als Ergebnis ausgegeben wird.\cite{beigi} Zu Beachten ist, dass hier im Gegensatz zu der \textit{Open Set Speaker Authentication} es in jedem Fall zu einem Ergebnis kommt. \\
 
-die aufgabe besteht nun darin das ergebnis der klassifikation der samples zu interpretieren. 
-dafür betrachteten für jeden sprecher die verteilung seiner samples.
-Hierbei wurde ein sprecher richtig erkannt wenn bei ihm die größte menge samples zugeordnet wurden.
-dies bedeutet dass wir auch mit einemgeringen anzahl richtig klassifizierter samples einen sprecher authentifizieren konnten solang die übrigen samples gleichmäßig verteilt waren. 
+Die Aufgabe besteht nun darin das Ergebnis der Klassifikation der Samples zu interpretieren. Dafür betrachteten für jeden Sprecher die Verteilung seiner Samples.
+Hierbei wurde ein Sprecher richtig erkannt, wenn bei ihm die größte Menge an Samples zugeordnet wurden. Dies bedeutet, dass wir auch mit einer geringen Anzahl von richtig klassifizierter Samples einen Sprecher erfolgreich authentifizieren konnten solang die übrigen, falsch klassifizierten, Samples gleichmäßig verteilt waren. 
 
-dieses verfahren wurde bei allen sprechern angewandt und das entstandende ergebniss ist zu sahen in Tabelle:\ref{table:resultsAuth}.
-
-
+Dieses verfahren wurde bei allen Sprechern angewandt und das erarbeitete Ergebnis ist zu sehen in Tabelle:\ref{table:resultsAuth}.
 
 \begin{table}[h]
 \tbl{Ergebnisse der Authentifizierung}{%
@@ -82,6 +66,5 @@ dieses verfahren wurde bei allen sprechern angewandt und das entstandende ergebn
 \label{table:resultsAuth}
 \end{table}
 
-Das Ergebnis von 95.18\% richtig erkannten sprechern ist gut und entspricht damit dem \textit{state-of-the-art}.\cite{beigi}
-Im vergleich dazu wurde im hyke-projekt ein ergebnis von 95\% erreicht, welches mit unseren nahezu identisch ist.\cite{hyke}
+Das Ergebnis von 95.18\% richtig erkannten Sprechern ist gut und entspricht damit dem \textit{state-of-the-art}.\cite{beigi} Im Vergleich dazu wurde im HYKE-Projekt ein Ergebnis von 95\% erreicht, welches mit unseren nahezu identisch ist.\cite{hyke}
 
