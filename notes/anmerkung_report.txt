@@ -4,6 +4,7 @@ vorteile:
 -kostengünstig
 -kein starker eingriff in die privatsphähre(hohe akzeptanz)
 
+___Hyke
 Einleitung zu Hyke
 (da sich unter projekt von dem des Hyke ableiten wollen wir zuerst einmal im Folgenden das Hyke Projekt vorstellen)
 
@@ -23,12 +24,14 @@ aus dem amst-toolbox /source diss
 
 ___post
 weka welches in \ref vorgestellt wurde
-das ziel des psot-pro ist es..
+das ziel des post-pro ist es..
 
 bild?
 
 ___classification
 def needed?
+
+matrizen anhängen
 
 ___zoo
 interpretation der ergebnisse fehlt
@@ -39,6 +42,7 @@ was haben wir erreicht und wie ist es zu bewerten?
 
 
 ___future
+andere datenbasis
 
 anderer ablauf:
 -keine stille entfernen und vergleichen
