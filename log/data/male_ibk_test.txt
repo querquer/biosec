@@ -1,0 +1,81 @@
+=== Run information ===
+
+Scheme:weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     audio_steganalysis-weka.filters.unsupervised.instance.RemoveWithValues-S10.0-C7-Lfirst-last-weka.filters.unsupervised.attribute.Remove-R3-4
+Instances:    8852
+Attributes:   591
+[list of attributes omitted]
+Test mode:user supplied test set: size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances         867               58.502  %
+Incorrectly Classified Instances       615               41.498  %
+Kappa statistic                          0.5751
+Mean absolute error                      0.0173
+Root mean squared error                  0.1294
+Relative absolute error                 42.5084 %
+Root relative squared error             90.662  %
+Total Number of Instances             1482     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.622     0.008      0.7       0.622     0.659      0.814    male_01
+                 0.731     0.011      0.543     0.731     0.623      0.865    male_02
+                 0.889     0.003      0.828     0.889     0.857      0.945    male_03
+                 0.034     0.017      0.038     0.034     0.036      0.482    male_04
+                 0         0          0         0         0          0.934    male_05
+                 0.605     0.012      0.561     0.605     0.582      0.803    male_06
+                 0.633     0.003      0.861     0.633     0.729      0.821    male_07
+                 0.412     0.009      0.519     0.412     0.459      0.712    male_08
+                 0.605     0.004      0.813     0.605     0.693      0.807    male_09
+                 0.741     0.016      0.455     0.741     0.563      0.867    male_10
+                 0.68      0.001      0.944     0.68      0.791      0.845    male_11
+                 0.686     0.006      0.727     0.686     0.706      0.831    male_12
+                 0.686     0.004      0.8       0.686     0.738      0.846    male_13
+                 0.5       0.002      0.4       0.5       0.444      0.757    male_14
+                 0.4       0.015      0.353     0.4       0.375      0.703    male_15
+                 0.596     0.009      0.683     0.596     0.636      0.8      male_16
+                 0.444     0.008      0.5       0.444     0.471      0.723    male_17
+                 0         0          0         0         0          0.521    male_18
+                 0.769     0.005      0.714     0.769     0.741      0.867    male_19
+                 0.395     0.01       0.548     0.395     0.459      0.703    male_20
+                 0.257     0.014      0.31      0.257     0.281      0.62     male_21
+                 0.455     0.018      0.366     0.455     0.405      0.728    male_22
+                 0         0          0         0         0          ?        male_23
+                 0.781     0.004      0.806     0.781     0.794      0.892    male_24
+                 0.923     0.001      0.923     0.923     0.923      0.963    male_25
+                 0.44      0.009      0.458     0.44      0.449      0.725    male_26
+                 0.813     0.014      0.553     0.813     0.658      0.887    male_27
+                 0.514     0.015      0.475     0.514     0.494      0.744    male_28
+                 0.438     0.019      0.341     0.438     0.384      0.704    male_29
+                 0         0.001      0         0         0          0.517    male_30
+                 0.541     0.012      0.541     0.541     0.541      0.759    male_31
+                 0.5       0.001      0.75      0.5       0.6        0.758    male_32
+                 0.308     0.009      0.381     0.308     0.34       0.642    male_33
+                 0.756     0.013      0.62      0.756     0.681      0.864    male_34
+                 0.577     0.016      0.395     0.577     0.469      0.788    male_35
+                 0.389     0.021      0.318     0.389     0.35       0.681    male_36
+                 0.674     0.005      0.806     0.674     0.734      0.817    male_37
+                 0.432     0.014      0.444     0.432     0.438      0.706    male_38
+                 0.857     0.017      0.49      0.857     0.623      0.922    male_39
+                 0.528     0.008      0.633     0.528     0.576      0.754    male_40
+                 0.464     0.017      0.351     0.464     0.4        0.733    male_41
+                 0.6       0.012      0.469     0.6       0.526      0.801    male_42
+                 1         0.009      0.79      1         0.883      0.995    male_43
+                 0.867     0.001      0.929     0.867     0.897      0.935    male_44
+                 0.724     0.006      0.724     0.724     0.724      0.864    male_45
+                 0.568     0.008      0.636     0.568     0.6        0.787    male_46
+                 0.824     0.01       0.667     0.824     0.737      0.91     male_47
+                 0.862     0.007      0.714     0.862     0.781      0.93     male_48
+Weighted Avg.    0.585     0.009      0.581     0.585     0.576      0.796
